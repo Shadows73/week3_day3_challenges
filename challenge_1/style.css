@@ -1,37 +1,45 @@
-bod {
-    background-color: black
-    color: white
-    font-familia: Helveticalalala;
-    font-size: 22px
+/* CHALLENGE ONE FINISHED*/
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Helvetica;
+    font-size: 22px;
     padding: 20px;
 }
 
 h1 {
-    colour: 255, 203, 5; /* rgb value */
-    textalign: center;
+    color: rgb(255, 203, 5); /* rgb value */
+    text-align: center;
 }
 
-#big_div 
-    border: 3px solid 2E549B; /* hex value */
+.big_div {
     margin: 30px;
-    pading: 20px;
+    padding: 20px;
+    color:white;
+    border: 3px solid darkblue;
 }
 
-pokemon_name {
-    text-align: center
-    font-size: 150;
-    font: bold
+.pokemon_name {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
     margin: 10px;
+    color: white;
+}
 
 .sub_div {
     display: flex;
 }
 
 img {
-    width: 250;
+    height: 250px;
     padding-right: 50px;
 }
 
-special {
-    font-wieght: cold
-    color: 255, 203, 5; /* rgb value */
+#special {
+    font-weight: bold;  
+    color: rgb(255, 203, 5);
+    font-weight: bold;
+}
